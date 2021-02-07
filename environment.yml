@@ -1,6 +1,0 @@
-name: blog
-dependencies:
-  - python=3.7
-  - pelican
-  - markdown
-  - ghp-import
