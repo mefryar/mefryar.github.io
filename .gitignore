@@ -1,5 +1,5 @@
-# Byte-compiled
-__pycache__/
+# Ignore cache
+.jekyll-cache
 
-# General
-.DS_Store
+# Ignore contents of generated site
+_site/
