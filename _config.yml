@@ -1,13 +1,21 @@
-# Permalinks
-# pretty style = /:categories/:year/:month/:day/:title/
-permalink:           pretty
+# SITE SETTINGS (Custom variables accessible in templates via {{ site.myvariable }})
 
-# Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+# Title and URL
+title: Michael Fryar
+url: http://mefryar.github.io
+
+# One post per page
+paginate: 1
+
+# Contact information for Atom
+author:
+  name: Michael Fryar
+  email: michaelefryar@gmail.com
+
+# BUILD SETTINGS
+
+# Pretty style Permalinks (/:categories/:year/:month/:day/:title/)
+permalink: pretty
 
 # Plugins
 plugins:
@@ -17,20 +25,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# Assets
-#
-# We specify the directory for Jekyll so we can use @imports.
+# Minify compiled CSS (Removes unnecessary characters for faster loading)
 sass:
-  sass_dir:          _sass
-  style:            :compressed
+  style: :compressed
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
-
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole

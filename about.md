@@ -3,28 +3,22 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hi! I'm Michael. I'm a software engineer with a background in economics and
+international development.  I try to have a [growth
+mindset](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means).
+I love learning and sharing what I learn, which is the goal of this site.
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I'm currently working to improve financial services for traditionally
+underserved individuals as a part of [Juntos](https://juntosglobal.com/about/).
+I was previously a Research Fellow with [Evidence for Policy
+Design](https://epod.cid.harvard.edu/) at Harvard Kennedy School, working to
+help policymakers use data and evidence for decision making.
 
-There are currently two themes built on Poole:
+## Contact
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Feel free to reach out!
+ - [michaelefryar@gmail.com](mailto:michaelefryar@gmail.com)
+ - [GitHub](https://github.com/mefryar)
+ - [LinkedIn](https://www.linkedin.com/in/fryar/)
+ - [Strava](https://www.strava.com/athletes/mefryar)
+ - [Twitter](http://twitter.com/mefryar)
