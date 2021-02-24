@@ -12,6 +12,9 @@ author:
   name: Michael Fryar
   email: michaelefryar@gmail.com
 
+# Google Analytics Measurement ID
+google_analytics_measurement_id: G-9C8NT6XM05
+
 # BUILD SETTINGS
 
 # Pretty style Permalinks (/:categories/:year/:month/:day/:title/)
