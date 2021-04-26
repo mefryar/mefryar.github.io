@@ -4,7 +4,7 @@ title: How It's Made
 ---
 
 **Note**: This post describes how I built the first version of my site using Pelican. I
-have since migrated to Jekyll.
+have since [migrated to Jekyll]({% post_url 2021-04-25-migrate-to-jekyll %})
 
 ![How It's Made: Pencils](http://i.imgur.com/788bA.gif)
 
