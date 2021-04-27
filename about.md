@@ -16,7 +16,7 @@ help policymakers use data and evidence for decision making.
 
 ## Contact
 
-Feel free to reach out!
+Don't hesitate to reach out!
  - [michaelefryar@gmail.com](mailto:michaelefryar@gmail.com)
  - [GitHub](https://github.com/mefryar)
  - [LinkedIn](https://www.linkedin.com/in/fryar/)
