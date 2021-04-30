@@ -14,6 +14,10 @@ I was previously a Research Fellow with [Evidence for Policy
 Design](https://epod.cid.harvard.edu/) at Harvard Kennedy School, working to
 help policymakers use data and evidence for decision making.
 
+## Subscribing
+You can get email notifications about new posts for free using
+[Feedrabbit](https://feedrabbit.com/), or your favorite RSS/Atom feed reader.
+
 ## Contact
 
 Don't hesitate to reach out!
