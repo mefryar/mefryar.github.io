@@ -1,0 +1,17 @@
+---
+# When Jekyll builds, each import statement is replaced with the contents of the
+# stylesheet with the same name in the _sass directory, and the combined 
+# stylesheets are transformed into CSS as _site/styles.css.
+# Adding a comment ensures Jekyll reads the file to be transformed into CSS later.
+# Only main files, those not prefixed with an underscore, contain this front matter.
+---
+
+@import "base";
+@import "type";
+@import "syntax";
+@import "code";
+@import "layout";
+@import "masthead";
+@import "posts";
+@import "pagination";
+@import "message";

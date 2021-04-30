@@ -1,0 +1,41 @@
+<head>
+  <meta charset="UTF-8">
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {% if page.title == "Home" %}
+      {{ site.title }}
+    {% else %}
+      {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+
+  <!-- Favicons -->
+  <!--
+    The favicon is the icon that represents your website in tabs and search results.
+    See realfavicongenerator.net/faq for an explanation of the code in this section.
+  -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicons/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/assets/favicons/site.webmanifest">
+  <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicons/safari-pinned-tab.svg" color="#00a330">
+  <link rel="shortcut icon" href="{{ site.baseurl }}/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00a300">
+  <meta name="msapplication-config" content="{{ site.baseurl }}/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/atom.xml">
+
+  <!-- Google Analytics -->
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+</head>
