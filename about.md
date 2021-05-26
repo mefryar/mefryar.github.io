@@ -23,6 +23,6 @@ You can get email notifications about new posts for free using
 Don't hesitate to reach out!
  - [michaelefryar@gmail.com](mailto:michaelefryar@gmail.com)
  - [GitHub](https://github.com/mefryar)
- - [LinkedIn](https://www.linkedin.com/in/fryar/)
+ - [LinkedIn](https://www.linkedin.com/in/mefryar/)
  - [Strava](https://www.strava.com/athletes/mefryar)
  - [Twitter](http://twitter.com/mefryar)
