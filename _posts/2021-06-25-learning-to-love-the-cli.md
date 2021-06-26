@@ -34,8 +34,8 @@ the people who knew the most about computers using something that looked like it
 was straight out of the 1980s?
 
 I now know that the reason their screens looked like something straight out of
-the 1980s is because in a way they were. The black window they were using was a
-terminal emulator, that is, something designed to *emulate* the [computer
+the 1980s is because, in a way, they were. The black window they were using was a
+terminal emulator; that is, something designed to *emulate* the [computer
 terminals](https://en.wikipedia.org/wiki/Computer_terminal) like the [DEC
 VT100](https://en.wikipedia.org/wiki/VT100), which became popular in the 1980s
 as a replacement for [punched
@@ -47,10 +47,10 @@ and paper tape.
 lived on through emulators.*
 
 That still begs the question though, why continue emulating something from the
-1980s? Now that operating systems, like macOS Big Sur, come with beautiful
-graphic user interfaces why is the terminal emulator still an essential
+1980s? Now that operating systems like macOS Big Sur come with beautiful
+graphic user interfaces, why is the terminal emulator still an essential
 application for programmers? The answer, I've learned, is that terminal
-emulators offer a powerful way to interact with a computer: the command line
+emulators offer a powerful way to interact with a computer: the command-line
 interface.
 
 ![macOS Big Sur](/assets/images/macOS_BigSur.jpeg "macOS Big Sur")
@@ -88,39 +88,76 @@ spent since it has allowed me to leverage the power of the command line.
 
 ### The power of the command line
 
-For me, most of the power of the command line comes down to speed. At first,
-when I felt I was just poking around in the dark, the CLI was much slower than
-using a GUI. But, with practice&mdash;lots and lots of practice&mdash;many tasks
-are now faster when I use the command line. There are at least three reasons why
-the command line is faster.
+In my first draft of this post, I wrote that, for me, much of the power of the
+command line comes down to speed. However, a segment of an episode of the
+[Cognicast](https://www.cognitect.com/cognicast/160)[^fn-cognicast] that I was
+listening to this morning made me realize that speed wasn't what I wanted to
+emphasize.
 
-#### 1. Precision
+[^fn-cognicast]: The segment, which is from 8:00 to 9:30 discusses the quote, attributed to Rich Hickey that "Programming is not about typing, it's about thinking."
 
-When I want to open, rename, move, or delete a file, it's now almost always
-faster to use the command line because it allows me to specify any file on my
-computer by typing out the path where that file is saved rather than clicking
-through a series of folders until I get to it. This facilitated by a command
-line feature named [tab
-completion](https://en.wikipedia.org/wiki/Command-line_completion) which allows
-me to just type the first few characters, then hit the `TAB` key to fill in the
-rest.
+What I care about is not speed but productivity. I care less about the time it
+takes me to accomplish a given task than about the tasks I can accomplish in a
+given time.
 
-#### 2. Automation (Recursion)
+Learning how to use the command line has made me more productive because it has
+helped me to become more intentional. If I am not intentional when typing out a
+command, it either won't execute, or worse, it will do something other than what
+I intended.[^fn-grep]
 
-Where the command line shines is when I need to repeat a task for a bunch
-of files or folders. For example, if I had some wedding photos named
-`IMG_1.png`, `IMG_2.png`, and so on, with a single command, I could rename them
-all to `best_day_ever_1.png`, `best_day_ever_2.png`, etc. Even if you have ten
-files to rename like that, being able to do so with a single command saves a lot
-of time compared to doing it manually. Just imagine the savings when you have a
-thousand files or more.
+[^fn-grep]: Like the multiple times I have entered `grep -r 'some pattern'` and left off the directory.
 
-#### 3. You can just use the keyboard!
+This means that I'm almost always *slower* whenever I'm first trying to learn
+how to use the CLI to do a task for which I previously used a GUI. The
+productivity gains only come after I invest the time to think about exactly what
+it is that I want to do and how to translate that into a precise command.
 
-Although it felt limiting at first, the ability to execute a series of tasks all
-without having to take my hands off the keyboard really does make things faster.
+### Three scenarios where I've come to use the CLI
 
-Finally, even when the benefits are marginal, it feels more fun!
+To offer some examples, (though not an exhaustive list), here are three
+scenarios where I've come to use the command line rather than a graphic user
+interface.
+
+#### 1. Using the CLI makes me more productive because it allows me to automate something repetitive
+
+Sometimes the productivity gains from using the CLI to complete a task do
+primarily come down to speed. This is often the case when what I want to do is
+simple conceptually but repetitive. For example, let's say that I have some
+wedding photos named `IMG_1.png`, `IMG_2.png`, and so on, that I want to rename
+to `best_day_ever_1.png`, `best_day_ever_2.png`, etc. This would be
+time-consuming to do via a GUI even if I only have 10 photos but a single
+command can do this type of renaming for thousands of files.
+
+#### 2. Using the CLI makes me more productive because it forces me to understand what I'm trying to do
+
+For other tasks, using the CLI might only be marginally faster. However, it
+makes me more productive over time because the requirement to be precise forces
+me to gain a better understanding of what I'm trying to do. One example of this
+is navigating project codebases. Especially at first, it was easier to open a
+file by searching for it by name without having to know where it was located in
+the project's nested folder structure. Although it is possible to search for a
+file by name from the CLI, to open it from the CLI I have to specify the full
+path. Opening files from the CLI in this way has helped me gain a grasp of why
+those project folders are structured the way they are. As a result, I can now
+learn something about a file even before I open it just by looking at where it's
+located.
+
+#### 3. Using the CLI may or may not be more productive but it feels more fun!
+
+Finally, even when the productivity gains of using the CLI for a particular task
+are doubtful, sometimes it just feels more fun! It makes me feel closer to the
+metal, which I gather is a large part of why car enthusiasts prefer to use a
+stick shift. There's also an element of initiation, the sense that I'm learning
+the magic incantations of the ancients. It has helped a lot in my journey that
+I've been able to go at my own pace, choosing to explore when it feels fun
+without being compelled to do things any particular way.
+
+### Don't fear the learning curve
+
+Picking the right problem to work on matters far more than the tools you use.
+But learning how to use the command line has added a tool to my belt that I
+didn't even know existed before.
 
 So if you find yourself someday staring at that black window, don't be afraid.
-You can figure it out. And you might even learn to love it.  
+You can figure it out. It could make you more productive. And you might even
+learn to love it.
