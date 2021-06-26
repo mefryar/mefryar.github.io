@@ -9,7 +9,7 @@ Like most people, before I started programming, I interacted with my computer by
 clicking, dragging, and typing into windows. To open a file, I'd first click on
 the Finder (Mac) or Explorer (Windows) icon, then click on folder icons until I
 could see the file icon I wanted, then double click on the file icon. To delete
-a file, I could just drag it the [trash (Mac) or recycle bin
+a file, I could just drag it to the [trash (Mac) or recycle bin
 (Windows)](https://ux.stackexchange.com/a/55967) icon. To edit a document, I'd
 open Microsoft Word or Google Docs.
 
@@ -66,7 +66,7 @@ typing out commands from a keyboard. Unlike a *graphic* user interface, the
 command line is *text* based, meaning you can just use the keyboard.
 
 The first time I used the command line, I wanted to cry, "I can *just* use the
-keyboard?" I felt like I had been asked to navigate a unfamiliar room where
+keyboard?" I felt like I had been asked to navigate an unfamiliar room where
 someone had just turned out the lights. Instead of a window with a menu of
 commands and icons I could click on, I just sat staring at that black window.
 
@@ -107,13 +107,13 @@ rest.
 
 #### 2. Automation (Recursion)
 
-Where the command line really shines is when I need to repeat a task for a
-bunch of files or folders. For example, if I had some wedding photos
-named `IMG_1.png`, `IMG_2.png`, and so on, with a single command I could
-rename them all to `best_day_ever_1.png`, `best_day_ever_2.png`, etc. Even if
-you have ten files to rename like that, being able to do so with a single
-command is a big time savings compared to doing it manually. Just imagine the
-savings when you have a thousand files or more.
+Where the command line shines is when I need to repeat a task for a bunch
+of files or folders. For example, if I had some wedding photos named
+`IMG_1.png`, `IMG_2.png`, and so on, with a single command, I could rename them
+all to `best_day_ever_1.png`, `best_day_ever_2.png`, etc. Even if you have ten
+files to rename like that, being able to do so with a single command saves a lot
+of time compared to doing it manually. Just imagine the savings when you have a
+thousand files or more.
 
 #### 3. You can just use the keyboard!
 
