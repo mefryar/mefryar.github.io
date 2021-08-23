@@ -8,11 +8,14 @@ international development.  I try to have a [growth
 mindset](https://hbr.org/2016/01/what-having-a-growth-mindset-actually-means).
 I love learning and sharing what I learn, which is the goal of this site.
 
-I'm currently working to improve financial services for traditionally
-underserved individuals as a part of [Juntos](https://juntosglobal.com/about/).
-I was previously a Research Fellow with [Evidence for Policy
-Design](https://epod.cid.harvard.edu/) at Harvard Kennedy School, working to
-help policymakers use data and evidence for decision making.
+I'm currently working to design financial services that help people become the
+best versions of themselves as a part of
+[Nubank](https://nubank.com.br/en/careers/). This work began at Juntos, which
+was [acquired by
+Nubank](https://labsnews.com/en/news/business/nubank-buys-american-juntos-global-for-personalized-chats-with-customers/).
+Prior to that, I was a Research Fellow at [Evidence for Policy
+Design](https://epod.cid.harvard.edu/) at Harvard Kennedy School, where I worked
+to help policymakers use data and evidence for decision making.
 
 ## Subscribing
 You can get email notifications about new posts for free using
