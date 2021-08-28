@@ -162,8 +162,10 @@ what
 In case it helps inspire others to take the leap, below is an outline of how I
 set up my local development environment for learning Clojure with Exercism and
 Vim. It's not intended to be a step-by-step walk-through since specific
-instructions might go stale. Instead, the goal is to list the basic steps in the
-hope of reinforcing that it really isn't that complicated.
+instructions might go stale.[^fn-exercismv3] Instead, the goal is to list the
+basic steps in the hope of reinforcing that it really isn't that complicated.
+
+[^fn-exercismv3]: In fact, as I write this on August 28, 2021, we are days away from the launch of Exercism v3 which will introduce a new online editor that enables solving exercises directly in the browser without setting up anything locally, though the CLI tool will remain.
 
 ### Installing Exercism
 
@@ -327,7 +329,9 @@ returned. Now all I see returned is `"Hello, World!"`. Looking better!
 
 I can then use the vim-fireplace normal mode command `:Last` to open the
 result in the preview window so that I can yank (copy) and then put (paste) the
-result below the function in my "REPL Experiments" section.
+result below the function into a section named "REPL Experiments" that leverages
+Clojure's [rich comment
+blocks](https://betweentwoparens.com/blog/rich-comment-blocks/#rich-comment).
 
 ```
 (ns hello-world)
@@ -336,8 +340,10 @@ result below the function in my "REPL Experiments" section.
 
 ;; * REPL Experiments *
 
-;; Check the return value of `hello` function
-(hello)
+(comment
+  ;; Check the return value of `hello` function
+  (hello)
+  )
 ```
 
 I've found this practice of documenting REPL experiments helpful when
